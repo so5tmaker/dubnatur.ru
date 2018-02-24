@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+<defaultDepartureCityId>1</defaultDepartureCityId>
+<defaultCountryId>20</defaultCountryId>
+<modulePageLocation>http://dubnatur.ru/tours.php</modulePageLocation>
+<departureCitiesDdX>250</departureCitiesDdX>
+<departureCitiesDdY>30</departureCitiesDdY>
+<departureCitiesDdWidth>200</departureCitiesDdWidth>
+<countriesDdX>250</countriesDdX>
+<countriesDdY>60</countriesDdY>
+<countriesDdWidth>200</countriesDdWidth>
+<searchButtonX>560</searchButtonX>
+<searchButtonY>40</searchButtonY>
+<searchButtonWidth>117</searchButtonWidth>
+<searchButtonHeight>41</searchButtonHeight>
+<searchButtonLabel>Искать тур!</searchButtonLabel>
+<AuthKey></AuthKey>
+<AdvertLocation>http://dubnatur.ru/tours.php</AdvertLocation>
+<ImagePath>http://dubnatur.ru/tours/Images/banner.png</ImagePath>
+</parameters>

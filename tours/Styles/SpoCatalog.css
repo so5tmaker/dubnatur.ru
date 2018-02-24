@@ -1,0 +1,60 @@
+body
+{
+}
+/* Стиль поля ввода даты "с" */
+.date-from-text {width: 80px;}
+/* Стиль поля ввода даты "по" */
+.date-to-text {width: 80px;}
+
+/* Размеры для выпадающего списка стран */
+#comboDestinationCountry_base, #comboDestinationCountry_base .e-combobox 
+/* Основное окно */
+{width: 200px; height: 20px} 
+#comboDestinationCountry_base .e-combobox .e-combobox-input 
+/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+{width: 178px; height: 20px}
+#comboDestinationCountry_list 
+/* Высота выпадающего списка */
+{height: 100px}
+
+/* Размеры для выпадающего списка городов вылета */
+#comboDepartureCity_base, #comboDepartureCity_base .e-combobox 
+/* Основное окно */
+{width: 200px; height: 20px} 
+#comboDepartureCity_base .e-combobox .e-combobox-input 
+/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+{width: 178px; height: 20px}
+#comboDepartureCity_list 
+/* Высота выпадающего списка */
+{height: 200px}
+
+.currentPageNumber
+{
+	padding:5px;
+	color:#F6821B;
+}
+
+.pageNumber
+{
+	padding:5px;
+	cursor:pointer;
+	text-decoration:underline;
+	color:#F6821B;
+}
+
+.spoListHeader
+{
+	text-align:center;
+	font-weight:bold;
+}
+
+.cellSpoName
+{
+	border: lightgrey 1px solid;
+}
+
+.cellInfo
+{
+	text-align:center;
+	border: lightgrey 1px solid;
+}

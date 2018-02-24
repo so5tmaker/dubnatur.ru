@@ -1,0 +1,30 @@
+
+.Tour
+{
+	display: none;
+	width: 172px;
+	height: auto;
+	border: 1px solid #FFF;
+}
+.showcaseImageDivClass
+{
+	float: left;
+	margin: 2px;
+	width: 50px;
+	height: auto;
+	background-color: #FFF;
+	border: 2px solid #FFF;
+}
+.showcaseTextDivClass
+{
+	float: left;
+	margin: 2px;
+	width: 110px;
+	height: auto;
+	background-color: #FFF;
+	border: 1px solid #FFF;
+}
+.showcaseFirstElement
+{
+	vertical-align: top;
+}

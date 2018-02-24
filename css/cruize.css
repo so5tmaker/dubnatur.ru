@@ -1,0 +1,140 @@
+body { margin:0 auto; padding:0; overflow:auto; font-family:Arial}
+* { box-sizing: border-box; -moz-box-sizing: border-box}
+
+a img, img.nobord {border:none}
+
+.inlineImg {position:relative; top:3px}
+
+.w100 {width:100px}
+.w209 {width:216px}
+.top4 {position:relative; top:5px; display:block}
+.fl {float:left}
+
+h1 {font-size:24px; margin:0 0 5px}
+.alone {padding:10px 0 0 10px; font-family:Arial;}
+
+h2 {font-size:18px; margin:0 0 15px}
+.blue {color:#039}
+.red {color:#c30}
+
+td.bottom {vertical-align:bottom}
+
+#d1 {float:right; text-align:right}
+#d1, #d2 {overflow:hidden; width:auto; height:100%; border-collapse:collapse}
+
+.full {height:100%}
+#d1, #d2 {font-size:1px; width:100%; height:100%}
+#l_td, #r_td {width:50%}
+#l_td {background:url('/img/bg/body.gif') 100% 0}
+#r_td {background:url('/img/bg/body.gif') 0 0}
+#d1 {background:url('/img/bg/left.gif') repeat-y 100% 0}
+#d2 {background:url('/img/bg/right.gif') repeat-y 0 0}
+
+.content {width:760px; background:#fcf8f9; border:solid #17364b; border-width:0 1px; font-family:Arial}
+
+#top {height:114px; border-bottom:1px solid #17364b; background:url('/img/bg/top.jpg') repeat-x 0 0; padding:33px 0 0 25px; width:760px}
+#top div {float:left}
+#top2 {position:relative; top:-2px; left:29px}
+
+#menu {height:29px; border:solid #fff; border-width:1px 0; background:url('/img/bg/menu.gif') repeat-x 0 50%; padding:6px 11px 0; font-family:verdana}
+#menu a {color:#fff}
+#menu .left a {display:block; float:left; margin-right:20px}
+#menu .right a {float:right; margin-left:5px}
+
+#main_img {border:solid #17364b; border-width:1px 0}
+
+.img3 div {padding:10px 0 10px 10px; float:left}
+.img3 div img {border:1px solid #000}
+
+.dotted {text-align:center; background:url(/img/dot3x1.gif) repeat-x 0 50%; font-size:10px; text-align:center; margin:0 10px}
+.dotted a {background:#fcf8f9 url(/img/bg/search.gif) no-repeat 50% 0; padding:4px 5px 0; display:block; margin:0 auto; height:26px; width:120px; text-align:center; color:#fff; font-size:12px}
+
+.search, .logos {border-collapse:collapse}
+
+.content #searchFull {width:100%; padding:0 10px; display:none}
+#searchFull .searchBg {padding:10px 0; background:#e8e4e5}
+.search td {padding:0 10px 0 0; vertical-align:middle; font-size:12px}
+.search td.first {padding-left:16px}
+.search tr.grey td {color:#797979; padding:0 0 3px}
+.search .w100 {width:100%; font:12px Arial}
+.search .button {background:#e1c483; border:1px solid #e1c483; border:1px solid #333}
+.content .sForm {width:100%; padding:10px}
+.sForm .searchBg {padding:10px 0; background:#eddcb9}
+
+.search .button {box-sizing: border-box; -moz-box-sizing:content-box; width:24px; padding:0}
+.search .button, {width:26px}
+
+
+.search ul {margin:0; padding:0 15px; line-height:20px}
+
+.news {width:100%; padding:10px 5px 15px 10px; font-family:Arial; text-align: justify; line-height: normal;}
+.news img {border:1px solid #000; margin:0 10px 0 0}
+.news img.nobord {border:none}
+.news img.right {margin:0 0 0 10px; float:right}
+.news .text {float:left}
+.news p {font-size:12px; margin:0; padding:5px 0 10px}
+.news p.noMargin {padding:0 0 3px}
+.news p.small, .news p small p {font-size:10px; padding:0 0 3px}
+.newsPage {font-size:14px; padding-right:20px; border:1px solid #fcf8f9}
+.newsPage p {font-size:14px; /*width:100%*/}
+.newsList img {border:1px solid #000; margin:0 5px 0px 0}
+.newsList p {font-size:12px; margin:0; padding:5px 65px 10px 0px}
+.news .next {display:block; float:left; padding-left:15px; background:url(/img/blue.gif) no-repeat 0 3px}
+
+.border_top {padding-right: 10px;}
+
+.logos {clear:both}
+.logos td {vertical-align:middle; text-align:center; height:62px; border:solid #4a3c0f; border-width:1px 0; background:#685417}
+.emptyLogos {width:100%;height:1px; overflow:hidden; border-bottom:1px solid #000; margin:30px auto 10px}
+
+.content #bottom {font-size:10px; font-family:Verdana; /*height:115px;*/ background:url('/img/bg/bottom.jpg') repeat-x 0 100%; text-align:center;}
+
+ul.nomargin {margin:0 0 0 15px; padding:0}
+
+form.search { padding:0 10px}
+.bg {background:#eddcb9; height:44px; padding:10px 10px 10px 20px}
+.bg span, .bg select {float:left}
+.bg span {display:block; padding:5px 5px 0 10px}
+.bg input {float:right}
+.queryData {padding:0 30px 10px; font-size:10px; font-family:Arial;}
+.querySort {padding-right:30px; font-size:10px; font-family:Arial; float: right;}
+
+.searchResult {padding-left:40px; font-size:12px; clear:both }
+.searchResult ol {position:relative; left:-15px; margin:0 15px; padding:0; font-size:14px}
+.searchResult ol li {padding:0 0 10px; line-height:20px}
+.searchResult ol .normal {font-size:12px}
+.searchResult ol .small {font-size:10px; line-height:12px}
+.searchResult ol .small div {display:block; width:240px; float:left; position:relative;}
+.searchResult ol .small span {display:block; clear: left;}
+
+.cruiseRoute {padding-bottom: 5px; color: #999999}
+
+.palubaList th {color:#fff; background:#666; padding:4px 8px; text-align:left}
+.palubaList td {padding:4px}
+.palubaList tbody td {color:#f60; font-weight:bold; text-align:right}
+.palubaList tbody td a {font-weight:normal; float:left}
+.palubaList tbody tr.active td {color:#fff; font-weight:normal; background:#069; text-align:left}
+.palubaList tbody tr.active td.arrow {color:#fff; font-weight:normal; background:#069 url('/img/bg/arrow.gif') no-repeat 98% 50%; text-align:left}
+.palubaList tbody tr.active td b {display:block; float:right}
+
+.cruisDates th, .cruisDates td {padding:4px 8px; font-size:12px; text-align:left}
+.cruisDates th {color:#fff; background:#859a82}
+.cruisDates td {background:#e6f0e5; font-weight:bold; font-size:14px}
+.cruisDates tr.even td {background:#cde0cb}
+
+.cruisStops {margin:0 0 20px}
+.cruisStops th, .cruisStops td {padding:4px 8px; font-size:12px; text-align:left}
+.cruisStops th {color:#fff; background:#094d4a}
+.cruisStops td {background:#dad9da; font-weight:bold}
+.cruisStops tr.even td {background:#bbc4cc}
+
+.gr, .link {float:left; margin:8px 0 0; padding:4px}
+.gr {background:#999; color:#fff}
+
+.bgOra {background:#debe75; font-weight:bold; margin:0 0 2px 380px; padding:5px}
+.bgOra div {float:right}
+
+.error {background:#990000; color:#fff; font-weight:bold; margin-bottom:10px; padding:5px;}
+
+.feedback {width:100%; padding:10px;}
+.feedback p {margin-left: 0;}

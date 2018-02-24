@@ -1,0 +1,329 @@
+body, td, th{
+	font-family : Tahoma,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color:#5D5D5D;
+}
+h1{
+	color: #FF7E07;
+	font-size:18px;
+	margin-top: 10px;
+}
+h2{
+	color: #0068C8;
+	font-size: 17px;
+	margin-bottom:0px;
+}
+h3{
+	font-size: 13px;
+	margin-bottom:0px;
+}
+
+a:link,a:visited{
+	color: #0068C8;
+	text-decoration: none;
+}
+a:hover,a:active{
+	color: #0068C8;
+	text-decoration: underline;
+}
+a.bilet-uplink:link,a.bilet-uplink:visited{
+	color: #000000;
+	text-decoration: underline;
+}
+a.bilet-uplink:hover,a.bilet-uplink:active{
+	color: #FF7E07;
+	text-decoration: underline;
+}
+a.bilet-orange:link,a.bilet-orange:visited{
+	color: #FF7E07;
+	text-decoration: none;
+}
+a.bilet-orange:hover,a.bilet-orange:active{
+	color: #FF7E07;
+	text-decoration: underline;
+}
+.bilet-whitesepar{
+background-color: white;
+height: 30px;
+}
+td.bilet-continfo{
+	padding-bottom: 8px;
+	padding-left: 12px;
+	padding-right: 5px;
+	padding-top: 15px;
+}
+td.bilet-continfoinn{
+	font-weight: bold;
+	font-size: 13px;
+	color:#5D5D5D;
+	padding-left: 10px;
+}
+td.bilet-continfoinn2{
+	font-weight: bold;
+	font-size: 13px;
+	color:#5D5D5D;
+	padding-left: 11px;
+}
+font.bilet-continfoinn{
+	font-size: 13px;
+	color:#9A0000;
+}
+td.bilet-continfobott{
+	font-size: 9px;
+	padding: 3px;
+	border-top: 1px solid #E45C15;
+}
+
+form{
+	margin: 0px;
+}
+td.bilet-enter{
+	padding-left: 20px;
+	color:#000000;
+}
+input{
+	font-family: Tahoma,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	height: 20px;
+	margin: 0px;
+}
+select{
+	height: 20px;
+}
+a.bilet-dark:link,a.bilet-dark:visited{
+	color: #002776;
+	text-decoration: underline;
+}
+a.bilet-dark:hover,a.bilet-dark:active{
+	color: #002776;
+	text-decoration: underline;
+}
+
+
+a.bilet-white:link,a.bilet-white:visited{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.bilet-white:hover,a.bilet-white:active{
+	color:#000000;
+	text-decoration: underline;
+}
+
+
+.bilet-formfeader{
+	padding-left: 3px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-align: left;
+	background-color:#0068c8;
+}
+td.bilet-forform{
+	padding:6px;
+	padding-top: 4px;
+	vertical-align: top;
+	color:#000000; 
+}
+td.bilet-formcell{
+	background-color: #66A5E1;
+	color:#ffffff;
+	font-weight: bold;
+	padding: 7px;
+	padding-left: 25px;
+	line-height: 150%;
+	vertical-align: top;
+}
+td.bilet-submit{
+	padding-bottom: 7px;
+	padding-top: 5px;
+	text-align: right;
+}
+div.bilet-bp{
+	margin-bottom: 8px;
+	margin-left: 35px;
+}
+select,option{
+	font-size: 10px;
+}
+div.bilet-forpadd{
+	margin-bottom: 5px;
+}
+.bilet-error{
+	color: #FF0000;
+	font-size:11px;
+}
+
+.bilet-dgHeaders, .bilet-header {
+	background-color : #cce3fb;
+	color:#195C8F;
+	font-weight:bold;
+}
+.bilet-dgItems {
+	background-color : #DEDFDE;
+}
+.bilet-dgAltItems {
+	background-color : #F2F2F2;
+}
+table.bilet-ttable{
+	background-color: #0068C8;
+}
+tr.bilet-tthead td{
+	color: white;
+	background-color: #0068C8;
+	font-size: 13px;
+	height: 29px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+td.bilet-tthead{
+	color: white;
+	background-color: #0068C8;
+	font-size: 13px;
+	height: 29px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+td.bilet-ttitem{
+	padding: 5px;
+	background-color: #CCE3FB;
+}
+
+td.bilet-ttitem1{
+	padding: 5px;
+	background-color: #CCE3FB;
+	color: #0068C8;
+	font-size:13px;
+	border-top:2px solid #0068C8;
+}
+tr.bilet-ttitem1bold td{
+    padding: 5px;
+	background-color: #CCE3FB;
+	color: #0068C8;
+	font-size:13px;
+	border-top:2px solid #0068C8;
+	font-weight: bold;
+	vertical-align: top;
+}
+tr.bilet-ttitem1 td{
+	padding: 5px;
+	background-color: #CCE3FB;
+	color: #0068C8;
+	font-size:13px;
+	border-top:2px solid #0068C8;
+}
+td.bilet-ttitem2{
+	background-color: #F6F6F6;
+	padding: 5px;
+}
+tr.bilet-ttitem2 td{
+	background-color: #F6F6F6;
+	padding: 5px;
+}
+td.bilet-ttitem3{
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+tr.bilet-ttitem3 td{
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+
+.bilet-orderticket{
+	background-color: #CCE3FB;
+	border: 1px solid #FFFFFF;
+}
+input.bilet-nextstep{
+	background-color: #CCE3FB;
+	border: 1px solid #000000;
+}
+.textbilet-orange, .bilet-textorange{
+	color: #FF7E07;
+}
+a.bilet-chooseanother:link,a.bilet-chooseanother:visited{
+	color: #CCE3FB;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.bilet-chooseanother:hover,a.bilet-chooseanother:active{
+	color: #CCE3FB;
+	text-decoration: underline;
+	font-weight: normal;
+}
+td.ttbilet-orange{
+	font-weight: bold;
+	color: #FF7E07;
+	padding: 5px;
+	background-color: white;
+}
+
+td.bilet-aaitem1{
+	padding: 3px;
+	background-color: #CCE3FB;
+	color: #0068C8;
+	font-size:13px;
+	border-top:2px solid #0068C8;
+}
+tr.bilet-aaitem1 td{
+	padding: 3px;
+	background-color: #CCE3FB;
+	color: #0068C8;
+	font-size:13px;
+	border-top:2px solid #0068C8;
+}
+td.bilet-aaitem2{
+	background-color: #F6F6F6;
+	padding: 3px;
+}
+tr.bilet-aaitem2 td{
+	background-color: #F6F6F6;
+	padding: 3px;
+}
+td.bilet-aaitem3{
+	background-color: #FFFFFF;
+	padding: 3px;
+}
+tr.bilet-aaitem3 td{
+	background-color: #FFFFFF;
+	padding: 3px;
+}
+
+.bilet-dottedbottom{
+	background-image: url(/rus/img/bg_gots_h.gif);
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+ul{
+	list-style-image: url(/rus/img/bullet_01.gif);
+}
+.bilet-pl30{
+	padding-left: 30px;
+}
+.tthead-head {
+	color:white;
+}
+.tthead-head a:link, .tthead-head a:visited  {
+	color:white;
+}
+.tthead-head a:hover, .tthead-head a:active  {
+	color:white;
+}
+table.occur{
+	width: 100%;
+}
+table.occur td{
+	font-weight: bold;
+	color:#ff7e07;
+	padding: 5px;
+	border: 1px solid #c9c9c9;
+	border-right: none;
+}
+table.occur tr.h td{
+	color:#5d5d5d;
+	background: #CCE3FB;
+}
+
+ul.wh_menu {margin:0;padding: 16px 0 16px 0;list-style:none;}
+ul.wh_menu li {display:block;float:left;margin:0;padding:4px;}
+ul.wh_menu a, ul.wh_menu a:link, ul.control a:visited {color:#1C6AC0;text-decoration:underline;padding:2px;border: dotted 1px #1C6AC0;background-color:#AFDEFA;}
+ul.wh_menu a:hover, ul.wh_menu a:active {color:#1C6AC0;text-decoration:none;padding:2px;border: dotted 1px #1C6AC0;background-color:#AFDEFA;}

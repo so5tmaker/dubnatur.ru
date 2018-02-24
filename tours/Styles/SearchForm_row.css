@@ -1,0 +1,83 @@
+	/* Размеры для выпадающего списка стран */
+	#DestinationCountryComboBox_base1, #DestinationCountryComboBox_base .e-combobox
+	/* Основное окно */
+	{width: 180px; height: 20px}
+	#DestinationCountryComboBox_base1 .e-combobox .e-combobox-input
+	/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+	{width: 158px; height: 20px}
+	DestinationCountryComboBox_list
+	/* Высота выпадающего списка */
+	{height: 180px}
+
+	#CurrencyComboBoxLabel {padding-bottom: 5px; padding-right: 5px;}
+	
+	/* Размеры для выпадающего списка валют */
+	#CurrencyComboBox_base, #CurrencyComboBox_base .e-combobox 
+	/* Основное окно */
+	{width: 100px; height: 16px} 
+	#CurrencyComboBox_base .e-combobox .e-combobox-input 
+	/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+	{width: 78px; height: 15px}
+	#CurrencyComboBox_list 
+	/* Высота выпадающего списка */
+	{height: 50px}
+	
+	
+	#TourTypeComboBoxLabel {padding-bottom: 10px; padding-left:80px}
+	
+	/* Размеры для выпадающего списка типов тура */
+	#TourTypeComboBox_base, #TourTypeComboBox_base .e-combobox 
+	/* Основное окно */
+	{width: 100px; height: 16px} 
+	#TourTypeComboBox_base .e-combobox .e-combobox-input 
+	/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+	{width: 78px; height: 15px}
+	#TourTypeComboBox_list 
+	/* Высота выпадающего списка */
+	{height: 100px}
+
+	/* Размеры для выпадающего списка городов вылета */
+	#DepartureCityComboBox_base, #DepartureCityComboBox_base .e-combobox
+	/* Основное окно */
+	{width: 180px; height: 20px}
+	#DepartureCityComboBox_base .e-combobox .e-combobox-input
+	/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+	{width: 158px; height: 20px}
+	#DepartureCityComboBox_list
+	/* Высота выпадающего списка */
+	{height: 180px}
+	
+	.betweenDepartureAndCountry {height: 14px}
+	.betweenCountryAndCities {height: 13px}
+	
+	/* Размеры для списка городов прилета */
+	#DestinationCitiesListBox_base {width: 177px; height: 45px}
+	
+	/* Размеры для списка питаний */
+	#MealsListBox_base {width: 120px; height: 60px}
+	
+	/* Размеры для списка звездностей */
+	#StarsListBox_base {width: 100px; height: 60px}
+	
+	/* Размеры для списка звездностей */
+	#HotelsListBox_base {width: 237px; height: 45px}
+	
+	/* Стиль поля ввода количество взрослых туристов */
+	.adult-text {width: 29px;}
+	/* Стиль поля ввода количество детей туристов */
+	.child-text {width: 29px;}
+	
+	/* Стиль поля ввода продожительность "от" */
+	.nights-from-text {width: 29px;}
+	/* Стиль поля ввода продожительность "до" */
+	.nights-to-text {width: 29px;}
+
+	/* Стиль поля ввода цена "от" */
+	.price-from-text {width: 45px;}
+	/* Стиль поля ввода цена "до" */
+	.price-to-text {width: 45px;}
+	
+	/* Стиль поля ввода даты "с" */
+	.date-from-text {width: 70px;}
+	/* Стиль поля ввода даты "по" */
+	.date-to-text {width: 70px;}

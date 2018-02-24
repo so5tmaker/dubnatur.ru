@@ -1,0 +1,108 @@
+/*Заголовок списка*/
+.brn-pagetitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2189C6;
+	text-decoration: none;
+}
+/*Строка навигации*/
+.brn-navbar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2189C6;
+	text-decoration: none;
+}
+.brn-navbar a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2189C6;
+	text-decoration: underline;
+}
+/*Индикатор "Идет загрузка..."*/
+.brn-waitbox {
+	position: absolute;
+	top: 5;
+	right: 0;
+	z-index: 1000;
+}
+/*Общий контейнер, содержаший перечисленные ниже контейнеры*/
+.brn-contentbox {
+	width: 900px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.brn-contentbox a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #2189C6;
+	text-decoration: none;
+}
+/*Контейнер для списка стран*/
+.brn-countriesbox {
+	width: 900px;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+.brn-countriesbox a {
+}
+/*Контейнер для списка городов*/
+.brn-citiesbox {
+	width: 900px;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+.brn-citiesbox a {
+}
+/*Контейнер для списка отелей*/
+.brn-hotelsbox {
+	width: 900px;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+.brn-hotelsbox a {
+}
+/*Контейнер для информации об отеле*/
+.brn-hotelinfobox {
+	width: 900px;
+}
+.brn-hotelinfobox a {
+}
+/*Стиль колонки в списке (стран,городов,отелей)*/
+/*Возможно использование вложенности при необходимости, например .brn-countriesbox .brn-listcol -- стиль для колонки в списке стран*/
+.brn-listcol {
+	width: 125px;
+}
+
+/* Размеры для выпадающего списка стран */
+#comboCountry_base, #comboCountry_base .e-combobox
+/* Основное окно */
+{width: 190px; height: 20px}
+#comboCountry_base .e-combobox .e-combobox-input
+/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+{width: 168px; height: 20px}
+comboCountry_list
+/* Высота выпадающего списка */
+{height: 180px}
+
+/* Размеры для выпадающего списка городов */
+#comboCity_base, #comboCity_base .e-combobox
+/* Основное окно */
+{width: 190px; height: 20px}
+#comboCity_base .e-combobox .e-combobox-input
+/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+{width: 168px; height: 20px}
+comboCity_list
+/* Высота выпадающего списка */
+{height: 180px}
+
+/* Размеры для выпадающего списка звездностей */
+#comboStars_base, #comboStars_base .e-combobox
+/* Основное окно */
+{width: 190px; height: 20px}
+#comboStars_base .e-combobox .e-combobox-input
+/* Поле ввода текста, меньше основного окна на ширину картинки со стрелочкой */
+{width: 168px; height: 20px}
+comboCity_list
+/* Высота выпадающего списка */
+{height: 180px}
